@@ -1,4 +1,3 @@
-import action as action
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import Select
@@ -48,4 +47,3 @@ if Hover.is_displayed() :
 else:
     print("Handover element not present in this page")
 time.sleep(2)
-driver.close()
